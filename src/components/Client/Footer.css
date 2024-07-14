@@ -1,0 +1,114 @@
+/* Footer CSS */
+
+.footer {
+    background-color: #122637;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .contact-details {
+    width: 30%;
+    margin-right: 20px;
+  }
+  
+  .contact-details h4 {
+    margin-top: 0;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .contact-details p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #fff;
+  }
+  
+  .contact-details span {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .contact-details.phone {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .contact-details.email {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .contact-details.email:hover {
+    color: #fff;
+  }
+  
+  .quick-links {
+    width: 30%;
+    margin-right: 20px;
+  }
+  
+  .quick-links h4 {
+    margin-top: 0;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .quick-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .quick-links li {
+    margin-bottom: 0px;
+  }
+  
+  .quick-links a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .quick-links a:hover {
+    color: #fff;
+  }
+  
+  .follow-us {
+    width: 30%;
+    text-align: center;
+  }
+  
+  .follow-us h4 {
+    margin-top: 0;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .follow-us a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .follow-us a:hover {
+    color: #fff;
+  }
+  
+  .copyright {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 20px;
+  }
+  
+  .copyright p {
+    margin-bottom: 10px;
+  }

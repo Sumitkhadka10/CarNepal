@@ -1,5 +1,6 @@
 import React from 'react';
-import './Topnavigation.css'
+import { Link } from 'react-router-dom';
+import './Topnavigation.css';
 
 function Topnavigation() {
   return (
@@ -17,9 +18,9 @@ function Topnavigation() {
         </div>
       </div>
       <div className="top-nav-container-right-section">
-        <a href="#">Login</a>
+        <Link to="/login">Login</Link>
         <span>/</span>
-        <a href="#">Register</a>
+        <Link to="/Register">Register</Link>
       </div>
     </div>
   );

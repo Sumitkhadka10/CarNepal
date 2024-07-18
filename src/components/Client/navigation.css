@@ -1,5 +1,5 @@
 nav {
-  background-color: #333;
+  background-color: white;
   padding: 10px;
 }
 
@@ -17,7 +17,7 @@ li {
 }
 
 a {
-  color: white;
+  color: black;
   text-decoration: none;
   padding: 10px 15px;
   display: block;
